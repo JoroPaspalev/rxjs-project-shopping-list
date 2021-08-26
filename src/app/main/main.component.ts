@@ -23,6 +23,8 @@ export class MainComponent implements OnInit {
         ;
       });
   }
+  
+  //Difference between Angular pipes and Rxjs pipes here: https://stackoverflow.com/questions/48030197/what-is-pipe-function-in-angular
 
   loadInitialData() : Observable<FakeData[]>{
     return this.httpClient
